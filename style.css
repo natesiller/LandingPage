@@ -18,7 +18,9 @@ li, a{
 
 /*Specific Edits*/
 .top{
+    background-color: #1F2937;
     display: flex;
+    color: #F9FAF8;
 }
 #header{
     width: 100%;
