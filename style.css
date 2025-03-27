@@ -24,7 +24,7 @@ p{
 
 /*root container to fit web page margins--add this class to outermost container for each section only*/
 .sectionwrapper{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -62,8 +62,8 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
 }
 
 /*hero content*/
@@ -71,30 +71,33 @@ ul{
     display: flex;
     flex-direction: column;
     flex: .5;
+    justify-content: space-between;
 }
 
 .right{
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .heroimg{
     width: 80%;
-    height: 400px;
+    height: 300px;
     background-color: white;
 }
 
 /*hero content text*/
 .heromaintext{
+    line-height: 1;
     font-size: 48px;
     font-weight: 900;
-    line-height: 56px;
+    color: #F9FAF8;
 }
 
 .herotext{
     font-size: 1rem;
-    max-width: 650px;
+    color: #E5E7EB;
 }
 
 .herobutton{
@@ -110,4 +113,15 @@ ul{
     color: #F9FAF8;
 }
 
+/*Information Section*/
+div.sectionwrapper{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*main text*/
+
+
+/*content cards*/
 
