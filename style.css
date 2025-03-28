@@ -17,6 +17,17 @@ li, a{
     font-size: 18px;
     color: #E5E7EB;
 }
+button{
+    background-color: #3882F6;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 12px;
+    border: 3px solid;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-color: #F9FAF8;
+}
 
 /*content card template*/
 .card{
@@ -34,11 +45,7 @@ li, a{
 }
 
 /*root container to fit web page margins--add this class to outermost container for each section only*/
-.sectionwrapper{
-    width: 75%;
-    margin: 0 auto;
-}
-
+.sectionwrapper{ width: 75%; margin: 0 auto; }
 /*top section*/
 .top{
     background-color: #1F2937;
@@ -113,11 +120,11 @@ ul{
 
 .herobutton{
     border: none;
-    background-color: #3882F6;
-    width: 6.75rem;
-    height: 1.75rem;
-    border-radius: 7px;
-    color: white;
+    /*background-color: #3882F6;*/
+    /*width: 6.75rem;*/
+    /*height: 1.75rem;*/
+    /*border-radius: 7px;*/
+    /*color: white;*/
 }
 
 .headerlogo{
@@ -167,4 +174,35 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+/*CTA Section*/
+.cta{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #3882F6;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    button{
+    }
+    .ctacontent{
+        align-items: center;
+        width: 90%;
+        height: 75%;
+        display: flex;
+        padding: 4rem 4rem;
+        justify-content: space-between;
+        .ctatext{
+            flex-direction: column;
+        }
+        p{
+            color: #F9FAF8;
+            font-size: 18px;
+        }
+        h3{
+            color: #F9FAF8;
+            font-size: 24px;
+        }
+    }
 }
