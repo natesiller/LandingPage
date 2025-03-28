@@ -206,3 +206,12 @@ ul{
         }
     }
 }
+
+/*footer*/
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    font: 18px/1.5 "Roboto", sans-serif;
+    color: #F9FAF8;
+    padding: 2rem 0;
+}
